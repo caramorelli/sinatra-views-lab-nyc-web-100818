@@ -6,8 +6,8 @@
   </head>
   <body>
     <h1>Today</h1>
-    <p><% date = DateTime.now.to_s %></p>
+    <p><% date = DateTime.now.to_s.parse %></p>
     <p><% date2 = DateTime.parse %></p>
-    <p><%= "The date is #{date2}"  %></p>
+    <p><%= "The date is #{date}"  %></p>
   </body>
 </html>
